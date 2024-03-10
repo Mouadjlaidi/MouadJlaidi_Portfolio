@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link rel="stylesheet" href="./packages/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="./packages/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+        <title>Mouad Jlaidi</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Mouad Jlaidi</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i>Accueil 
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i>Compétences
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i>Portfolio                                
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i>Contact                               
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://ma.linkedin.com/in/mouad-jlaidi-838b07279" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://github.com/Mouadjlaidi" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <!-- <img src="packages/images/Mouad.jpg"/> -->
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path fill="#FF0066" d="M42.1,-74.5C54.9,-65.6,65.8,-54.9,74.9,-42.2C84,-29.5,91.2,-14.8,91.1,-0.1C91,14.7,83.6,29.3,74.6,42.2C65.6,55,55.1,66.1,42.4,74.4C29.7,82.8,14.8,88.5,-0.4,89.3C-15.7,90,-31.4,85.8,-44.5,77.7C-57.6,69.5,-68,57.4,-76.5,43.8C-85,30.2,-91.6,15.1,-92.1,-0.3C-92.7,-15.7,-87.2,-31.5,-78.2,-44.2C-69.2,-56.9,-56.6,-66.6,-43,-75.1C-29.4,-83.6,-14.7,-90.7,0,-90.7C14.7,-90.7,29.3,-83.5,42.1,-74.5Z" transform="translate(100 100)" />
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path fill="#FF0066" d="M42.1,-74.5C54.9,-65.6,65.8,-54.9,74.9,-42.2C84,-29.5,91.2,-14.8,91.1,-0.1C91,14.7,83.6,29.3,74.6,42.2C65.6,55,55.1,66.1,42.4,74.4C29.7,82.8,14.8,88.5,-0.4,89.3C-15.7,90,-31.4,85.8,-44.5,77.7C-57.6,69.5,-68,57.4,-76.5,43.8C-85,30.2,-91.6,15.1,-92.1,-0.3C-92.7,-15.7,-87.2,-31.5,-78.2,-44.2C-69.2,-56.9,-56.6,-66.6,-43,-75.1C-29.4,-83.6,-14.7,-90.7,0,-90.7C14.7,-90.7,29.3,-83.5,42.1,-74.5Z" transform="translate(100 100)" />
+                                    <image class="home__blob-img" x="1" xlink:href="packages/images/Mouad.jpg"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Salut, je suis Mouad Jlaidi</h1>
+                            <h3 class="home__subtitle">Développeur full stack</h3>
+                            <p class="home__description">Je suis un développeur full stack junior passionné par la création d'applications web innovantes. Fort de compétences solides dans les technologies front-end et back-end ainsi que dans les langages côté serveur. Je suis constamment en quête d'apprentissage pour rester à la pointe des dernières technologies et améliorer continuellement mes compétences en développement full stack</p>
+                            <a href="#contact" class="button button--flex home__button" id="Button-Contact">
+                                Me contacter<i class="uil uil-message button__icon"></i>
+                            </a>
+                            <a download="" href="Mouad_Jlaidi.pdf" class="button button--flex" id="Button-Download">
+                                Télécharger mon CV<i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Compétences</h2>
+                <span class="section__subtitle">Mon niveau technique</span>
+
+                <div class="skills__container container grid">
+                    <!--==================== SKILLS 1 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                           <div>
+                               <h1 class="skills__title">Front-End</h1>
+                           </div>
+
+                           <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"> 
+                                        <i class="fa-brands fa-html5" style="color: #ff5733;"></i>     
+                                        <span class="icon-text-spacing">HTML</span>
+                                    </h3>
+                                    <!-- <span class="skills__number">80%</span> -->
+                                </div>
+                                <!-- <div class="skills__HTML">
+                                    <span class="skills__percentage skills__bank"></span>
+                                </div> -->
+                           </div>
+                           <div class="skills__data">
+                               <div class="skills__titles">
+                                   <h3 class="skills__name">
+                                    <i class="fa-brands fa-css3-alt" style="color: #264de4;"></i>
+                                    <span class="icon-text-spacing">CSS</span>
+                                    </h3>
+                                   <!-- <span class="skills__number">80%</span> -->
+                               </div>
+                               <!-- <div class="skills__CSS">
+                                   <span class="skills__percentage skills__counter"></span>
+                               </div> -->
+                           </div>
+                           <div class="skills__data">
+                                <div class="skills__titles">
+                                  <h3 class="skills__name">
+                                    <i class="fa-brands fa-js" style="color: #f0db4f;"></i>
+                                    <span class="icon-text-spacing">JavaScript</span>   
+                                </h3>
+                                  <!-- <span class="skills__number">70%</span> -->
+                                </div>
+                                <!-- <div class="skills__JavaScript">
+                                   <span class="skills__percentage skills__google"></span>
+                                </div> -->
+                            </div>
+                            <div class="skills__data">
+                               <div class="skills__titles">
+                                   <h3 class="skills__name">
+                                    <i class="fa-brands fa-react" style="color: #4fdbfb;"></i>
+                                    <span class="icon-text-spacing">React.js</span>  
+                                </h3>
+                                   <!-- <span class="skills__number">90%</span> -->
+                               </div>
+                               <!-- <div class="skills__Reactjs">
+                                   <span class="skills__percentage skills__office"></span>
+                               </div> -->
+                            </div>
+                        </div>
+                    </div>  
+                         <!--==================== SKILLS 2 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                               <div>
+                                   <h1 class="skills__title">Back-End</h1>
+                               </div>
+
+                               <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            <i class="fa-brands fa-php" style="color: #484c89;"></i>
+                                            <span class="icon-text-spacing">PHP</span>  
+                                        </h3>
+                                        <!-- <span class="skills__number">80%</span> -->
+                                    </div>
+                                    <!-- <div class="skills__PHP">
+                                        <span class="skills__percentage skills__bank"></span>
+                                    </div> -->
+                               </div>
+                               <div class="skills__data">
+                                   <div class="skills__titles">
+                                       <h3 class="skills__name">
+                                        <i class="fa-brands fa-laravel" style="color: #f05440;"></i>
+                                        <span class="icon-text-spacing">Laravel</span>  
+                                        </h3>
+                                       <!-- <span class="skills__number">80%</span> -->
+                                   </div>
+                                   <!-- <div class="skills__Laravel">
+                                       <span class="skills__percentage skills__counter"></span>
+                                   </div> -->
+                               </div>
+                               <div class="skills__data">
+                                    <div class="skills__titles">
+                                      <h3 class="skills__name">
+                                        <i class="fa-brands fa-python" style="color: #FFD43B;"></i>
+                                        <span class="icon-text-spacing">Python</span>  
+                                    </h3>
+                                      <!-- <span class="skills__number">70%</span> -->
+                                    </div>
+                                    <!-- <div class="skills__Python">
+                                       <span class="skills__percentage skills__google"></span>
+                                    </div> -->
+                                </div>
+                                <div class="skills__data">
+                                   <div class="skills__titles">
+                                       <h3 class="skills__name">
+                                        <i class="fa-brands fa-node" style="color: #3c873a;"></i>
+                                        <span class="icon-text-spacing">Node.js</span>  
+                                        </h3>
+                                       <!-- <span class="skills__number">90%</span> -->
+                                   </div>
+                                   <!-- <div class="skills__Nodejs">
+                                       <span class="skills__percentage skills__office"></span>
+                                   </div> -->
+                                </div>
+                            </div>
+                        </div>             
+                        <!--==================== SKILLS 3 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                               <div>
+                                   <h1 class="skills__title">Bases de Données</h1>
+                               </div>
+
+                               <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            <img src="./packages/images/mysql.png" style="width: 20px;">
+                                            <span class="icon-text-spacing">MySQL</span>  
+                                        </h3>
+                                        <!-- <span class="skills__number">80%</span> -->
+                                    </div>
+                                    <!-- <div class="skills__MySQL">
+                                        <span class="skills__percentage skills__bank"></span>
+                                    </div> -->
+                               </div>
+                               <div class="skills__data">
+                                   <div class="skills__titles">
+                                       <h3 class="skills__name">
+                                        <img src="./packages/images/mongodb.png" style="width: 20px;">
+                                        <span class="icon-text-spacing"> MongoDB</span>  
+                                       </h3>
+                                        
+                                       <!-- <span class="skills__number">80%</span> -->
+                                   </div>
+                                   <!-- <div class="skills__MongoDB">
+                                       <span class="skills__percentage skills__counter"></span>
+                                   </div> -->
+                               </div>
+                            </div>
+                        </div>                
+                </div>
+            </section>
+
+              <!--==================== QUALIFICATION ====================-->
+        <section class="qualification__section">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">Mon parcours personnel</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Éducation
+                    </div>
+
+                    <!-- <div class="qualification__button button--flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        Work
+                    </div> -->
+                </div>
+
+                <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONTENT 1 ====================-->
+            <div class="qualification__content qualification__active" data-content id="education">
+             <!--==================== QUALIFICATION 1 ====================--> 
+             <div class="qualification__data">
+                 <div>
+                     <h3 class="qualification__title">Baccalauréat </h3>
+                     <span class="qualification__subtitle">Lycée Qualifiant Al Mansour Addahbi</span>
+                     <div class="qualification__calendar">
+                        <i class="uil uil-calendar-alt"></i>
+                        2021 – 2022
+                     </div>
+                 </div>
+
+                 <div>
+                     <span class="qualification__rounder"></span>
+                     <span class="qualification__line"></span>
+                 </div>
+             </div>
+             
+             <!--==================== QUALIFICATION 2 ====================--> 
+             <div class="qualification__data">
+                <div></div>
+                <div>
+                   <span class="qualification__rounder"></span>
+                   <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                    <h3 class="qualification__title">Développeur full stack</h3>
+                    <span class="qualification__subtitle">Institut Spécialisé de Technologie Appliquée de Gestion</span>
+                    <div class="qualification__calendar">
+                       <i class="uil uil-calendar-alt"></i>
+                       2022 - 2024
+                    </div>
+                </div>
+            </div> 
+            
+            <!--==================== QUALIFICATION 3 ====================--> 
+            <!-- <div class="qualification__data">
+                <div>
+                    <h3 class="qualification__title">BSc Management Information System</h3>
+                    <span class="qualification__subtitle">NSBM Green University</span>
+                    <div class="qualification__calendar">
+                       <i class="uil uil-calendar-alt"></i>
+                       2015 - 2018
+                    </div>
+                </div>
+
+                <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                </div>
+            </div>  -->
+
+            <!--==================== QUALIFICATION 4 ====================--> 
+            <div class="qualification__data">
+                <div></div>
+                <div>
+                    <span class="qualification__rounder"></span>
+                   <!-- <span class="qualification__line"></span> -->
+                </div>
+
+                <!-- <div>
+                    <h3 class="qualification__title">Data Analyst Professional Certification</h3>
+                    <span class="qualification__subtitle">Google | Coursera - Online</span>
+                    <div class="qualification__calendar">
+                       <i class="uil uil-calendar-alt"></i>
+                       2021
+                    </div>
+                </div>   -->
+            </div>
+            
+            <!--==================== QUALIFICATION CONTENT 2 ====================-->
+            <div class="qualification__content" data-content id="work"> 
+                <!-- ==================== QUALIFICATION 1 ==================== 
+                <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">Trainee Banking Assistant</h3>
+                        <span class="qualification__subtitle">DFCC Head Office - Colombo</span>
+                        <div class="qualification__calendar">
+                           <i class="uil uil-calendar-alt"></i>
+                           2017 - 2019
+                        </div>
+                    </div>
+   
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                </div> -->
+                
+                <!-- ==================== QUALIFICATION 2 ==================== 
+                <div class="qualification__data">
+                   <div></div>
+                   <div>
+                      <span class="qualification__rounder"></span>
+                      <span class="qualification__line"></span>
+                   </div>
+   
+                   <div>
+                       <h3 class="qualification__title">Banking Assistant</h3>
+                       <span class="qualification__subtitle">DFCC Head Office - Colombo</span>
+                       <div class="qualification__calendar">
+                          <i class="uil uil-calendar-alt"></i>
+                          2019 - 2020
+                       </div>
+                   </div>
+               </div>  -->
+            </div> 
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Travaux les plus récents</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+        <!--==================== PORTFOLIO 1 ====================-->
+        
+            <div class="portfolio__content grid swiper-slide">
+                <img src="./packages/images/Covid.png" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">Statistiques COVID-19 </h3>
+                    <p class="portfolio__description">Sélectionnez un pays dans la liste pour obtenir instantanément les dernières données sur les cas confirmés et les décès et plus encore. Une façon rapide de rester informé.</p>
+                    <a href="https://mouadjlaidi.github.io/API-COVID-19-/Covid.html" class="button button--flex button--small portfolio__button">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2 ====================-->
+        
+            <div class="portfolio__content grid swiper-slide">
+                <img src="./packages/images/BLACKSHOP.png" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">BLACK SHOP</h3>
+                    <p class="portfolio__description">Explorez l'élégance masculine à travers BLACK SHOP ,votre destination en ligne pour un style moderne et intemporel. </p>
+
+                    <a href="https://mouadjlaidi.github.io/BlackShop/index.html" class="button button--flex button--small portfolio__button">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+          
+            </div>
+
+            <!-- add arrows-->
+            <div class="swiper-button-next">
+                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div>
+
+            <div class="swiper-button-prev">
+                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            
+        
+        </div>
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contactez-moi</h2>
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone-alt contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Appelez-moi</h3>
+                            <span class="contatc__subtitle">+212 6-39 72 86 45</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">E-mail</h3>
+                            <span class="contatc__subtitle">mouadjlaidi0@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contatc__subtitle">Casablanca, Maroc</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" name="nom" class="contact__label">Nom</label>
+                            <input type="text" class="contact__input">
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" name="email" class="contact__label">E-mail</label>
+                            <input type="email" class="contact__input">
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" name="" class="contact__label">Sujet</label>
+                        <input type="text" class="contact__input">
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Description</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+
+                    <div>
+                        <a href="#" class="button button--flex">
+                            Envoyer un message
+                            <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Mouad Jlaidi</h1>
+                    <span class="footer__subtitle">Développeur full stack</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#skills" class="footer__link">Compétences</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="./packages/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./packages/js/main.js"></script>
+</body>
+
+
+
+</html>
